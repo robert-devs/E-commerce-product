@@ -146,6 +146,7 @@ margin-left: 10px;
  .btn{
   font-size: 40px;
   width: 100%;
+  padding-left: 5px;
 }
 
 .btn {
@@ -165,8 +166,14 @@ margin-left: 10px;
   justify-content: space-around;
   height: 40px;
   border: none;
+  margin-right: 5px;
   align-items: center;
+background-color: #ffffff;
 
+}
+.span1{
+  color: black;
+  font-size: 20px;
 }
 .btn1 img {
   padding-left: 5px;
@@ -183,7 +190,8 @@ margin-left: 10px;
   padding: 4px;
   background-color: #fc7613;
 }
-.btn2 img{
+.btn2-img{
   justify-content: space-between;
-  color: white;
+ 
+  margin-right: 19px;
 }
