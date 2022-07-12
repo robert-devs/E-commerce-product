@@ -195,7 +195,6 @@ hr {
   margin-right: 5px;
   align-items: center;
   background-color: #ffffff;
-
 }
 
 .span1 {
@@ -229,8 +228,9 @@ hr {
   .card {
     width: 100%;
     display: grid;
-    height: 100%;
-    grid-template-columns: repeat(1, 350px);
+    height: 100vh;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(1, 350px); */
     grid-template-rows: 150px  ;
     gap: 10px;
     justify-content: center;
@@ -247,15 +247,24 @@ hr {
   gap: 10px;
  
 }
-.btn2 {
-  font-size: 18px;
-  width: 60%;
-  
-}
 .features h1 {
   color: #fc7613;
   margin: 12px;
   text-align: center;
+}
+.btn {
+  display: grid;
+  gap: 5px;
+  margin-top: 20px;
+  
+}
+.btn2 {
+  width: 100%;
+}
+.btn1{
+  width: 100%;
+  object-fit: cover;
+
 }
   
 }
